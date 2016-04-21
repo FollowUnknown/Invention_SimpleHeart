@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="#F7F7F7"
+    tools:context="lht.test.com.invention_simpleheart.InventionActivity">
+    <include
+        layout="@layout/activity_mytitlebar"/>
+
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:text="游戏"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/game_2048_64px"
+                android:layout_marginStart="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="心理版2048"
+                android:id="@+id/textView9"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="19dp"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:text="启动"
+                android:id="@+id/game1_button"
+                android:onClick="start_game"
+                android:textSize="15sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:background="@drawable/start_one_btn"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="32dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="一个大学生的心理历程"
+                android:id="@+id/textView16"
+                android:textSize="10sp"
+                android:layout_below="@+id/textView9"
+                android:layout_alignStart="@+id/textView9" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:background="#CDD0D5"
+            android:id="@+id/textView12"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="霍兰德测试"
+                android:textSize="18sp"
+                android:id="@+id/textView09"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="19dp"
+                android:layout_alignTop="@+id/button"
+                android:layout_toEndOf="@+id/button" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:text="启动"
+                android:textSize="15sp"
+                android:id="@+id/game2_button"
+                android:onClick="start_game"
+                android:background="@drawable/start_one_btn"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="32dp"
+                android:layout_alignTop="@+id/textView09"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="测测内心深处的自己"
+                android:id="@+id/textView14"
+                android:textSize="10sp"
+                android:layout_below="@+id/textView09"
+                android:layout_alignStart="@+id/textView09" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:src="@mipmap/game_heart_watch_64px"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="13dp" />
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:background="#CDD0D5"
+            android:id="@+id/textView11"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/game_more_64px"
+                android:layout_marginStart="13dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="敬请期待"
+                android:textSize="18sp"
+                android:id="@+id/textView10"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="19dp"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:text="更多"
+                android:textSize="15sp"
+                android:id="@+id/game3_button"
+                android:onClick="start_game"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_marginEnd="32dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/start_one_btn"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="更多游戏正在开发"
+                android:id="@+id/textView15"
+                android:textSize="10sp"
+                android:layout_below="@+id/textView10"
+                android:layout_alignStart="@+id/textView10" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">发现</string>
+    <string name="game_name">心理小游戏</string>
+    <string name="game1_name">心理版2048</string>
+</resources>

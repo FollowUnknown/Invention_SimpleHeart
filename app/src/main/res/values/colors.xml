@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DBC7A2</color>
+    <color name="colorPrimaryDark">#DBC7A2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="zhuantai">#DBC7A2</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_press">#fac069</color>
+
+</resources>
